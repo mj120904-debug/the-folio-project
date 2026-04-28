@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: the-folio-project
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm install -g serve && serve -s dist -l 3000
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
