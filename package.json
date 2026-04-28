@@ -1,0 +1,1 @@
+{\n  \"name\": \"the-folio-project\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {\n    \"build\": \"vite build\",\n    \"dev\": \"vite\",\n    \"preview\": \"vite preview\",\n    \"start\": \"vite\"\n  },\n  \"dependencies\": {},\n  \"devDependencies\": {\n    \"vite\": ^\"latest\"\n  }\n}
